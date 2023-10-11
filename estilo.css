@@ -1,0 +1,244 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*corpo*/
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 10px 5px 5px 10px;
+	background-color: #c8f9ff;
+}
+
+/*ids*/
+
+#navegacao {
+	float: left;
+	background: #fff7c3;
+	border-bottom: 1px solid #b9b9b9;
+	height: 45px auto;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding-top: 3px;
+}
+
+#area {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#logo {
+	font-size: 40px;
+	font-family: "Signatra DEMO";
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menu {
+	float: right;
+	padding: 10px 0;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 6px;
+	padding-bottom: auto;
+}
+
+#area-principal {
+	width: 1100px;
+	margin: 80px auto 10px auto;
+}
+
+#postagem {
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#busca {
+	padding-right: 50px;
+	padding-left: 300px;
+	padding-top: 8px;
+}
+
+#txtbusca {
+	float:left;
+	background-color: #fff;
+	border: solid #eda6ca;
+	border-radius: 10px;
+	padding-left:5px;
+	font-style:italic;
+	font-size:16px;
+	font-family: "Berlin Sans FB";
+	width:200px;
+	height:22px;
+	margin-top: 3px;
+}
+
+#pesquisar {
+	float: left;
+	background-color: #fff;
+	border: solid #eda6ca;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "Century gothic";
+	color: #eda6ca;
+	padding: 2px 5px 2px 5px;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+#login {
+	text-align: center;
+	margin-top: 100px;
+	right: 100px;
+	top: 50%;
+}
+
+#entrar {
+	background-color: #fff;
+	border: solid #eda6ca;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "Century gothic";
+	color: #eda6ca;
+	padding: 2px 5px 2px 5px;
+	margin-left: 10px;
+}
+
+#conectar {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Century gothic";
+}
+
+#logotipo-login {
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-top: 0;
+}
+
+#voltar {
+	background-color: #fff;
+	border: solid #eda6ca;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "Century gothic";
+	color: #eda6ca;
+	padding: 2px 5px 2px 5px;
+	margin-left: 10px;
+}
+
+h2 {
+	color: #eda6ca;
+	margin-bottom: 3px;
+}
+
+/*formatação do menu*/
+
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+a:link {
+	color: #77edff;
+}
+
+a:visited {
+	color: #eda6ca;
+}
+
+a:hover {
+	color: #000;
+	background: #eda6ca;
+}
+
+
+/*classes*/
+
+.rosa {
+	color: #eda6ca;
+}
+
+.data-postagem {
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-postagem {
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+.postado {
+	clear: both;
+	border-left: 5pxs solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
+
+.imagem {
+	margin-top: 1px;
+	margin-right: 5px;
+	height: 40px;
+	width: auto;
+	padding-top: 5px;
+	padding-right: 15px;
+	float: left;
+}
+
+.capa {
+	width: 100%;
+	height: 100%;
+}
+
+.pessoa {
+	margin-top: 1px;
+	margin-left: 5px;
+	height: 30px;
+	width: auto;
+	padding-top: 8px;
+	padding-left: 50px;
+	float: right;
+}
+
+.botao {
+	margin-top: 1px;
+	margin-left: 5px;
+	height: 50px;
+	width: auto;
+	padding-top: 8px;
+	padding-left: 10px;
+	float: left;
+}
+
+.fazer-login {
+	font-weight: bold;
+	font-size: 60px;
+	font-family: "Champagne & Limousines";
+	margin-bottom: 20px;
+}
+
+.email-senha {
+	background-color: #fff;
+	border: solid #eda6ca;
+	border-radius: 10px;
+	padding-left:5px;
+	font-size:16px;
+	font-family: "Berlin Sans FB";
+	width:200px;
+	height:22px;
+	margin-top: 3px;
+}

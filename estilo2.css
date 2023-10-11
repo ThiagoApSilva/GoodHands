@@ -1,0 +1,377 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body{
+	background-color: #fff7c3;
+}
+
+.dados{
+	background-color: rgba(255, 153, 204, 1); 
+	padding: 20px; 
+	border-radius: 20px;
+	width: 400px;
+	height: 500px;
+}
+
+.logo{
+	width: 60px;
+	height: 60px;
+}
+
+.sobrenos{
+	width: 450px;
+	height: auto;
+	align-items: center;
+}
+
+.pessoa{
+	width: 50px;
+	height: 50px;
+}
+
+.login{
+	margin-right: 20px;	
+}
+
+.desenvolvedor{
+	width: 200px;
+	height: auto;
+	padding: 10px;
+}
+
+.desenvolvedores{
+	font-family: "Century gothic";
+	font-size: 18px;
+	text-align: center;
+	color: #4682B4;
+	margin: auto;
+}
+
+.pesquisa{
+	background-color: #fff;
+	border: 2px solid #eda6ca;
+	border-radius: 20px;
+	color: #eda6ca;
+	font-family: 'Berlin Sans FB';
+	width: 100px;
+}
+
+.pesquisa:hover{
+	background-color: #eda6ca;
+	color: #fff;
+}
+
+.bot{
+	background-color: #fff;
+	border: 2px solid #eda6ca;
+	border-radius: 20px;
+	color: #eda6ca;
+	font-family: 'Berlin Sans FB';
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.bot:hover{
+	background-color: #eda6ca;
+	color: #fff;
+}
+
+.bot2{
+	background-color: #fff;
+	border: 2px solid #eda6ca;
+	border-radius: 20px;
+	color: #eda6ca;
+	font-family: 'Berlin Sans FB';
+	width: 100px;
+}
+
+.bot2:hover{
+	background-color: #eda6ca;
+	color: #fff;
+}
+
+.pesquisar{
+	padding-left: 5px;
+	background-color: #fff;
+	border: 2px solid #eda6ca;
+	border-radius: 20px;
+	color: #eda6ca;
+	font-family: "Berlin Sans FB";
+	margin-right: 30px;
+	width: 350px;
+}
+
+.links{
+	color: #eda6ca;
+	font-family: "Berlin Sans FB";
+	margin-right: 40px;
+}
+
+.links:hover{
+	text-decoration: none;
+	color: #000;
+	background-color: rgba(255, 153, 204, 0.2);
+	border-radius: 20px 0px;
+	padding: 10px;
+	font-family: "Berlin Sans FB";
+}
+
+
+
+p{
+	font-family: "century gothic";
+}
+
+#paragrafo{
+	text-align: justify;
+	color: #4682B4;
+}
+
+.sobre{
+	text-align: justify;
+	margin-top: 20px;
+	color: #4682B4;
+}
+
+h2{
+	font-family: "Berlin Sans FB";
+	font-size: 40px;
+	text-align: center;
+}
+
+#plataforma{
+	font-family: "Berlin Sans FB";
+	font-size: 40px;
+	text-align: center;
+}
+
+#desenvolvido{
+	font-family: "Berlin Sans FB";
+	font-size: 40px;
+	text-align: center;
+	color: #4682B4;
+}
+
+.centro{
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.quadros{
+	width: 297px;
+	height: 383px;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.quadros:hover{
+	width: 360px;
+	height: 486px;
+	padding: 10px;
+}
+
+.quadros2{
+	width: 207px;
+	height: 218px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 30px;
+}
+
+.quadros2:hover{
+	width: 217px;
+	height: 231px;
+	padding: 10px;
+}
+
+.centralizar{
+	text-align: center;
+}
+
+.distancia{
+	margin-top: 40px;
+}
+
+.rodape{
+	position: relative;
+	color: #4682B4;
+	bottom: 0px;
+	width: 100%;
+	background-color: #FFE4E1;
+}
+
+.ongs{
+	height: 70px;
+	padding: 5px 50px;
+	width: auto;
+}
+
+.social{
+	height: 50px;
+	width: auto;
+	padding: 5px 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* perfis*/
+
+.perfil{
+	width: 200px;
+	height: 200px;
+}
+
+.pftamanho{
+	width: 300px;
+	text-align: center;
+}
+
+.curriculo{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	display: block;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+/*login*/
+.pglogin{
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-bottom: 50px;
+}
+
+.corlink{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Berlin Sans FB";
+}
+
+
+
+
+@media screen and (max-width: 599px){
+	.pesquisar{
+		width: 160px;
+		margin-right: 5px;
+	}
+
+	.pessoa{
+		width: 30px;
+		height: 30px;
+	}
+
+	.login{
+		margin-right: 30px;
+		margin-top: 12px;
+	}
+
+	.pesquisa{
+		width: 80px;
+	}
+
+	.pesq{
+		position: absolute;
+		display: inline;
+		top: 25px;
+		left: 100px;
+	}
+
+	.menu{
+		position: absolute;
+		right: 20px;
+		top: 100px;
+	}
+
+	.conteudo{
+		margin-top: 13%;
+	}
+
+	.login{
+		position: absolute;
+		right: 23px;
+		top: 15px;
+	}
+
+	.cad{
+		position: absolute;
+		right: 18px;
+		top: 15px;
+		margin-top: 12px;
+	}
+}
+
+/*ferfis
+	.pftamanho{
+		width: 300px;
+		text-align: center;
+		height: 600px;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+
+	.curriculo{
+		
+		margin-top: 500px;
+		padding: 5px;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+		border-radius: 20px;
+	}
+	*/
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1250px){
+	.pesquisar{
+		width: 170px;
+		margin-right: 5px;
+	}
+
+	.login{
+		margin-right: 40px;
+		margin-top: 12px;
+	}
+
+	.pessoa{
+		width: 30px;
+		height: 30px;
+	}
+
+	.pesq{
+		position: absolute;
+		display: inline;
+		top: 25px;
+		right: 100px;
+	}
+
+	.menu{
+		position: absolute;
+		right: 20px;
+		top: 100px;
+	}
+
+	.conteudo{
+		margin-top: 13%;
+	}
+
+	.login{
+		position: absolute;
+		right: 20px;
+		top: 15px;
+	}
+
+	.cad{
+		position: absolute;
+		right: 20px;
+		top: 15px;
+		margin-top: 12px;
+	}
+	
+}
